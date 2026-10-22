@@ -38,3 +38,9 @@ Screenshot:
 
 ## Summary
 In this assignment, I practiced JavaScript objects, variables, arithmetic operators, event listeners, and DOM manipulation.
+
+## GitHub
+https://github.com/vasenzhan2007-sys/web1assignment5.git
+
+## Link to the website
+https://vasenzhan2007-sys.github.io/web1assignment5/web1assignment5/index.html
