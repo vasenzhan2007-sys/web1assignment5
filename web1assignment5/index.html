@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Profile</h1>
+
+        <section>
+            <h2>Personal Information</h2>
+            <p><strong>Name:</strong> <span id="profileName"></span></p>
+            <p><strong>Birth Year:</strong> <span id="profileYear"></span></p>
+            <p><strong>Developer:</strong> <span id="developerStatus"></span></p>
+            <p><strong>Age:</strong> <span id="profileAge"></span></p>
+            <p><strong>Number of Hobbies:</strong> <span id="hobbyCount"></span></p>
+        </section>
+
+        <section>
+            <h2>Create / Update Profile</h2>
+
+            <form id="profileForm">
+                <label for="username">Username</label>
+                <input type="text" id="username" required placeholder="Enter your name">
+
+                <label for="birthYear">Birth Year</label>
+                <input type="number" id="birthYear" min="1900" required placeholder="Enter your birth year">
+
+                <button type="submit">Create / Update Profile</button>
+            </form>
+
+            <p id="message"></p>
+        </section>
+
+        <section>
+            <h2>My Hobbies</h2>
+
+            <ul id="hobbyList"></ul>
+
+            <label for="newHobby">New Hobby</label>
+            <input type="text" id="newHobby" placeholder="Enter a hobby">
+
+            <button type="button" id="addButton">Add Item</button>
+            <button type="button" id="removeButton">Remove Item</button>
+        </section>
+    </div>
+
+</body>
+</html>
